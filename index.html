@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+        integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+
+<body>
+    <!-- navbar alani-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="px-2" src="images/Mercedes_benz_logo1989.png" width="150" alt="">
+            <a class="navbar-brand" href="#">Mercedes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Araclar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fiyat Listesi</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    Essiz Surus Keyfi
+                </span>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar bitisi-->
+
+    <!--Karsilama alani-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Gle.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Yeni Mercedes GLE Cupe</h5>
+                    <p>Essiz surus keyfi.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Karsilama alani bitis-->
+
+    <!--Arac Kartlari-->
+    <div class="d-flex mt-5 justify-content-evenly">
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/blacGle.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Mercedes GLE</h5>
+                <p class="card-text">Konforlu, sportif ve esnek: Yeni Mercedes GLE, uzun yolculuklar icin de mukemmel
+                    bir yol arkadasi.
+                </p>
+                <a href="#" class="btn btn-secondary">Araca Git</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/MbKey.jpg" class="card-img-top" height="160" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">ÖZGURLUGUN ANAHTARI</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-secondary">Araca Git</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="images/oldmb.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title">Eski Klasikler</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+                <a href="#" class="btn btn-secondary">Araca Git</a>
+            </div>
+        </div>
+    </div>
+    <!--Arac Kartlari Bitis-->
+        <!-- Yorumlar Alanı -->
+        <div class="d-flex justify-content-center align-center">
+            <div class="d-flex justify-content-center mt-5">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card w-50">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Harika bir araba!</h5>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="card w-50">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Test surusu inanilmazdi!</h5>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Yorumlar Alanı Bitiş -->
+    
+        <!-- Müşteri Hizmetleri  -->
+        <h3 class="text-center mt-4">Musteri Hizmetleri</h3>
+        <div class="container overflow-hidden text-center bg-light rounded mt-5">
+            <div class="row gy-5 bg-secondary text-light">
+              <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Ceyhun</div>
+              </div>
+              <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Ramazan/div>
+              </div>
+              <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Abdullah</div>
+              </div>
+              <div class="col-6">
+                <div class="p-3"><i class="bi bi-telephone-fill p-2"></i>Hakki</div>
+              </div>
+            </div>
+          </div>
+        <!-- Müşteri Hizmetleri Bitiş -->
+    
+        <!-- Tablo -->
+        <h3 class="text-center mt-5">Arac Siraniz</h3>
+        <table class="table table-dark table-hover mt-5 w-100">
+           <tr>
+            <th>SIRA</th>
+            <th>İSİM</th>
+            <th>TELEFON</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>Taner</td>
+            <td>1212 12 12</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>Cem</td>
+            <td>211 23 15</td>
+           </tr>
+          </table>
+        <!-- Tablo Bitiş -->
+    
+        <!-- Form Alanı -->
+        <div class="contact mx-auto d-flex flex-column text-center w-50 pt-4">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Bize Ulasin</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Şifrenizi Giriniz">
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Telefon Giriniz">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Konu</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button class="btn btn-success">Gönder</button>
+        </div>
+        <!-- Form Alanı Bitiş -->
+    
+        <!-- Footer -->
+        <footer class="bg-dark text-light p-3 mt-5">
+         
+        <div class="container d-flex justify-content-around">
+            <p>&#169 2024. Tüm Haklari Emre de dir <a target="_blank"></div>
+            
+            </div>
+        </footer>
+        <!-- Footer Bitiş -->
+        
+        
+</body>
+
+</html>
